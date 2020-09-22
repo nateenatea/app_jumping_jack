@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   <StreamSubscription<dynamic>>[];
 
   void CounterNumber() {
-    if(_accelerometerValues[0] >= 13){
+    if(_accelerometerValues[0] >= 10){
       if(time == 0){
         if(handdown == true || handup == false) {
           handdown = false;
